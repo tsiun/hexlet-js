@@ -1,4 +1,4 @@
 import _ from 'lodash'
-console.log(_.last(['one', 'two']))
-
-export default runApp
+export function runApp() {
+  console.log(_.last(['one', 'two']))
+}
